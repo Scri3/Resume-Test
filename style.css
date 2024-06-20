@@ -1,0 +1,369 @@
+@font-face {
+    font-family: 'Aria';
+    src: url('Fonts/AriaVFGX.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kahroba';
+    src: url('Fonts/Kahroba-VF[wght\,wdth\,CNTR].ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Mahoor';
+    src: url('Fonts/Mahoor[CNTR\,wght].ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Vazirmatn';
+    src: url('Fonts/Vazirmatn-Black.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-Bold.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-ExtraBold.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-ExtraLight.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-Light.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-Medium.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-Regular.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-SemiBold.ttf') format('truetype'),
+    url('Fonts/Vazirmatn-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zilla slab';
+    src: url('Fonts/ZillaSlab-Bold.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-BoldItalic.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-Italic.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-Light.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-LightItalic.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-Medium.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-MediumItalic.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-Regular.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-SemiBold.ttf') format('truetype'),
+    url('Fonts/ZillaSlab-SemiBoldItalic.ttf') format('truetype');
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ece8e877;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    direction: rtl;
+    background-image:url(Images/Background.jpg);
+}
+
+h3{
+    font-family: 'Mahoor';
+    font-size: 20pt;
+    text-align: center;
+    color: #ffff;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 30px;
+    font-family: 'Mahoor';
+    font-size: 20pt;
+    text-align: center;
+    color: #292D2D;
+    background-color: white;
+    border: 4px solid rgb(0, 0, 124);
+    border-radius: 35px;
+    width: 40%;
+    margin:auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.skills-Header{
+    margin-bottom: -3px;
+    border-radius: 25px 25px 0 0;
+
+}
+
+hr {
+    width: 40%;
+    margin: 20px 0;
+    border: 2px solid springgreen;
+}
+
+h5{
+    font-family: 'Kahroba';
+    font-size: 12pt;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+h6, b3{
+    font-family: 'Kahroba';
+    font-size: 12pt;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+
+p , li{
+    font-family: 'Kahroba';
+    font-size: 11pt;
+    font-weight: 500;
+    margin: 0;
+}
+
+.langs{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.langs l1, .langs l2,.langs l3 {
+    font-family: 'Vazirmatn';
+    font-size: 18pt;
+    font-weight: 900;
+    margin: auto;
+    padding: 20px 30px 20px 30px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+.langs l1{
+    background: linear-gradient(green , white, red);
+    color: black;
+    
+}
+.langs l2{
+    background: linear-gradient(white , red, white);
+    color: black;
+    
+}
+.langs l3{
+    background: linear-gradient(black , red, yellow);
+    color: white;
+    
+}
+
+
+.cont{
+    margin-top: -3px;
+    background: #2A2E36;
+    border: 4px solid rgb(0, 0, 124);
+    border-radius: 30px;
+    padding: 25px;
+}
+.cont img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 13px;
+    margin-left: 10px;
+}
+
+.contact b1, a{
+    font-family: 'Zilla slab', Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: white;
+}
+b{
+    font-family: 'Zilla slab', Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: black;
+
+}
+.contact p{
+    font-family: 'Kahroba';
+    font-size: 14pt;
+    font-weight: 500;
+    color: white;
+
+}
+
+.contact, .languages{
+    margin-top: 60px;
+
+}
+.contact h4{
+    border-radius: 25px 25px 0 0;
+}
+.contact h4{
+    border-radius: 25px 25px 0 0;
+}
+
+
+.skills-chart{
+    direction: ltr;
+}
+
+#skillsChart{
+    border-radius: 20px;
+    border: 4px solid rgb(0, 0, 124);
+    background-color: white;
+    padding: 20px;
+}
+
+
+.resume {
+    width: 80%;
+    background-color: #2A2E36;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(108, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px ;
+    margin-bottom: 15px ;    
+    border: 6px solid white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h5 img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+}
+
+.header {
+    background-color: rgb(59, 59, 59);
+    padding: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    position: relative;
+    height: 40%;
+    box-sizing: border-box;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.profile img {
+    border-radius: 25%;
+    width: 280px;
+    height: 280px;
+    border: 5px solid rgb(0, 0, 124);
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    width: 65%;
+    
+}
+
+.Logo {
+    display: flex;
+    direction: ltr;
+    margin: auto;
+    font-size: 50pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.Logo .Letter1{
+    color: white;
+    transform: scale(-1,1);
+    transition: all 1s;
+
+}
+
+.Logo .Letter2{
+    color: springgreen;
+    transform: scale(-1,1);
+    transition: all 1s;
+
+}
+.Logo:hover .Letter1{
+    transform: scale(1,1) translate3d(6px, 10px, 0px) rotate(-15deg);
+    transition: all 1s;
+}
+
+.Logo:hover .Letter2{
+    transform: translate3d(-6px, -10px, 0px) rotate(-15deg);
+    transition: all 1s;
+}
+
+
+.header-text h1 {
+    font-family: 'Aria';
+    margin: 0;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: 1000;
+    
+}
+
+.header-text h2 {
+    margin: 0;
+    text-align: center;
+    font-family: 'Mahoor';
+    font-size: 20pt;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+.skills ul{
+
+    direction: ltr;
+}
+
+.sidebar {
+    width: 35%;
+    /* background-color: #F4D644; */
+    background-color: springgreen;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.sidebar section {
+    margin-bottom: 20px;
+}
+
+
+.main {
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio, .abilities, .experience, .skills-chart, .education {
+    margin-bottom: 20px;
+}
+
+.bio .bio-content, .abilities .abilities-content, .experience .experience-content, .education .education-content{
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.skills-chart {
+    text-align: center;
+}
+
+.Job1, .Job2, .Ed1, .Ed2 {
+    margin-bottom: 20px;
+}
